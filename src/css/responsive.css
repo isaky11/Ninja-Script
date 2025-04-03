@@ -1,0 +1,80 @@
+@media (max-width: 768px) {
+    body {
+        height: 100% !important;
+        margin: 0;
+        padding: 0;
+    }
+
+    .personagem.selecionado {
+        display: flex;
+        flex-direction: column; 
+        justify-content: flex-start; 
+        align-items: center; 
+        padding: 0px;
+        width: 100%; 
+    }
+
+    .personagem.selecionado::before {
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 100%; 
+        top: 10px; 
+        background: linear-gradient(0deg, #000 65%, rgba(0, 0, 0, 0) 100%); 
+        z-index: 2; 
+    }
+
+    .picture img {
+        width: 100%; 
+        height: 100%; 
+        object-fit: cover;
+    }
+
+    .conteudo {
+        justify-content: flex-end;
+        left: 0;
+        top: -20%;
+        max-width: 100vw;
+        padding: 30px;
+    }
+
+    .nome-personagem {
+        font-size: 1.8em; 
+        margin: 0 0 15px 0; 
+        font-weight: bold;
+    }
+
+    .descricao {
+        font-size: 1em; 
+        margin: 0 auto; 
+        line-height: 1.5; 
+    }
+
+    ul.botoes {
+        position: fixed;
+        bottom: 0; 
+        left: 50%;
+        transform: translateX(-50%);
+        display: flex;
+        flex-direction: row; 
+        justify-content: center;
+        align-items: last baseline;
+        gap: 10px;
+        width: 100%;
+        padding: 15px 0;
+    }
+    
+
+    ul.botoes::before {
+        content: ""; 
+        display: none; 
+    }
+    
+    .botao img {
+        width: 70px;
+        height: 70px;
+    }
+    
+}
+
+

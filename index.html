@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ninja Script</title>
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+
+    <link rel="stylesheet" href="./src/css/style.css">
+
+    <link rel="stylesheet" href="./src/css/responsive.css">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <main class="personagens">
+        <div class="personagem selecionado" id="personagem-naruto">
+            <picture class="picture">
+                <source src="./src/image/Naruto.png" media="(min-width: 768px)">
+                <img src="./src/image/Naruto.png" alt="Personagem Naruto">
+            </picture>
+            <div class="conteudo">
+                <h2 class="nome-personagem">Haruto</h2>
+                <p class="descricao">Haruto Uzukaki tem a determinação de um    verdadeiro ninja! Seu código é impulsivo, cheio de
+                 energia e sempre movido pelo lema: “Nunca desistir!”, mas as vezes ele encontra um bug vez ou outra 😅, mas ele nunca vai desistir afinal o sonho dele é se tornar um Arquiteto de Software Lendário! 🔥</p>
+            </div>
+        </div>
+
+        <div class="personagem" id="personagem-hikaru">
+            <picture class="picture">
+                <source src="./src/image/Hikaru.png" media="(min-width: 768px)">
+                <img src="./src/image/Hikaru.png" alt="Personagem Hikaru">
+            </picture>
+            <div class="conteudo">
+                <h2 class="nome-personagem">Hikaru</h2>
+                <p class="descricao">Hikaru é um programador brilhante e enigmático, movendo-se entre códigos e segredos
+                    como um verdadeiro shinobi digital. Com seu corvo vigilante e olhar afiado, ele decifra sistemas com
+                    a mesma precisão que um ninja executa seus golpes. Silencioso, estratégico e sempre conectado,
+                    Hikaru domina o mundo digital como se fosse sua própria aldeia oculta.</p>
+            </div>
+        </div>
+
+        <div class="personagem" id="personagem-raiken">
+            <picture class="picture">
+                <source src="./src/image/Raiken.png" media="(min-width: 768px)">
+                <img src="./src/image/Raiken.png" alt="Personagem Raiken">
+            </picture>
+            <div class="conteudo">
+                <h2 class="nome-personagem">Raiken</h2>
+                <p class="descricao">Raiken domina JavaScript como um verdadeiro mestre das sombras digitais. Com
+                    reflexos rápidos e mente afiada, ele escreve código ágil e poderoso, criando estruturas flexíveis
+                    como golpes de um shinobi experiente. Em seu mundo de algoritmos e interfaces, cada linha de código
+                    é um novo movimento estratégico rumo à perfeição! 💻⚡</p>
+            </div>
+        </div>
+
+        <div class="personagem" id="personagem-akali">
+            <picture class="picture">
+                <source src="./src/image/Akali.png" media="(min-width: 768px)">
+                <img src="./src/image/Akali.png" alt="Personagem Akali">
+            </picture>
+            <div class="conteudo">
+                <h2 class="nome-personagem">Akali</h2>
+                <p class="descricao">Akali é uma programadora incomparável, com olhos que captam
+                    cada detalhe do código como se enxergassem além da própria realidade digital. Com um único olhar,
+                    ela decifra padrões, encontra falhas ocultas e prevê os próximos movimentos dos algoritmos. 💻👁️✨</p>
+            </div>
+        </div>
+    </main>
+    <ul class="botoes">
+        <li>
+            <button class="botao naruto selecionado" id="naruto">
+                <img src="./src/image/NarutoIcone.png" alt="Icone Naruto">
+            </button>
+        </li>
+
+        <li>
+            <button class="botao hikaru" id="hikaru">
+                <img src="./src/image/HikaruIcone.png" alt="Icone Hikaru">
+            </button>
+        </li>
+
+        <li>
+            <button class="botao raiken" id="raiken">
+                <img src="./src/image/RaikenIcone.png" alt="Icone Raiken">
+            </button>
+        </li>
+
+        <li>
+            <button class="botao akali" id="akali">
+                <img src="./src/image/AkaliIcone.png" alt="Icone Akali">
+            </button>
+        </li>
+    </ul>
+
+    <script src="./src/js/script.js">
+
+    </script>
+</body>
+
+</html>
